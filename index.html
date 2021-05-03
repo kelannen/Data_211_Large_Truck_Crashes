@@ -2,29 +2,12 @@
 <html>
 
 <head>
-    <title>Basic Embed</title>
-
-    <script type="text/javascript"
-	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script type="text/javascript">
-        function initViz() {
-            var containerDiv = document.getElementById("vizContainer"),
-                url = "http://public.tableau.com/views/Large_Truck_Crashes_2009-2018/Large_Truck_Accidents_Dashboard",
-                options = {
-                    hideTabs: true,
-                    onFirstInteractive: function () {
-                        console.log("Run this code when the viz has finished loading.");
-                    }
-                };
-
-            var viz = new tableau.Viz(containerDiv, url, options);
-            // Create a viz object and embed it in the container div.
-        }
-    </script>
+<title>Large Truck Crashes 2009-2018</title>
 </head>
 
-<body onload="initViz();">
-    <div id="vizContainer" style="width:800px; height700px;"></div>
+<body>
+<h1> Large Truck Crashes 2009-2018 </h1>
+<iframe seamless frameborder="0" src="https://public.tableau.com/views/Large_Truck_Crashes_2009-2018/Large_Truck_Accidents_Dashboard?:embed=yes&:display_count=yes&:showVizHome=no" width = '800' height = '800' scrolling='yes' ></iframe>  
 </body>
 
 </html>

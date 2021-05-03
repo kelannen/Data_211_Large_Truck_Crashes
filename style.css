@@ -7,35 +7,6 @@ h1.title {
 h2 {
   font-size: 30px;
 }
-h3 {
-  font-size: 24px;
-}
-h4 {
-  font-size: 18px;
-}
-h5 {
-  font-size: 16px;
-}
-h6 {
-  font-size: 12px;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-}
-
-.myfoot {
-    width: 100%;
-    color: #ffffff;
-    background-color: #222222;
-    padding-top: 10px;
-}
-
-.foot-text {
-    text-align: center;
-}
 
 .credit-line {
     font-size: 10pt;
